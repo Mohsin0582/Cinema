@@ -1,0 +1,141 @@
+*, html, body
+{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+	background-color:#BDEDFF;
+}
+
+header, footer{margin:0% 7%; background-color:purple; color:white;}
+header{padding:3% 2%; margin-bottom:2%; height:30px;}
+#temp{float: left; width: 33.3%; text-align:left; }
+#wlc{float: left; width: 33.3%; text-align:center; }
+#logout{float: left; width: 33.3%; text-align:right;}
+#logout a, #temp a, #wlc a{color:white; cursor:pointer; text-decoration:none;}
+#logout a:hover, #temp a:hover, #wlc a:hover {color:#BDEDFF; text-decoration:none;}
+footer{padding:3%;}
+
+#displayData{
+	background-color:#F0FFFF;
+	margin:2% 7%;
+	padding: 2%;
+}
+#displayDataTable{
+	padding:3% 3%;
+	width:100%;
+}
+#displayDataTable thead tr th, #displayDataTable tbody tr td{
+	padding:1% 1%;
+	border: 1px solid black;
+}
+
+#contactDiv{
+	background-color:white;
+	padding:1% 1%;
+	margin:2% 7%;
+}
+#contactForm{
+	color:black;
+	background-color:#BDEDFF;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 19%;
+	border-radius: 25px;
+}
+#submitContactFormBtn{
+	margin-left:27%;
+	color:white;
+	background-color:purple;
+	padding:1.5%;
+	height:50px;
+	width:150px;
+	border-radius: 25px;
+	cursor:pointer;
+}
+#submitLogin{
+	margin-left:27%;
+	color:white;
+	background-color:transparent;
+	padding:1%;
+	height:30px;
+	width:120px;
+	border: 1px solid white;
+	cursor:pointer;
+}
+
+#userRegisteration{
+	width:25%;
+	
+}
+
+#movieForm{
+	background-color:white;
+	margin:2% 7%;
+	padding:1% 1%;
+}
+#adminMovieForm, #userRegisterationForm{
+	background-color:#BDEDFF;
+	color:purple;
+	padding:2% 0;
+	padding-left:33.3%;
+}
+
+#movieUploadBtn{
+	cursor:pointer;
+	padding:1% 1%;
+	margin-left:17.5%;
+	height:30px;
+	width:120px;
+	color:white;
+	background-color:purple;
+}
+
+#adminLink{
+	float:left;
+	width:5%;
+	text-align:left;
+	color:white;
+}
+
+#regLink{
+	color:white;
+	text-align:right;
+	width:50%;
+}
+
+input, textarea {
+    border: 0px solid;
+}
+input{
+    height:30px;
+}
+
+.loginContainer
+{
+	margin:0 0;
+	color:black;
+}
+.formContainer
+{
+	margin-left:31%;
+	border:1px solid #fff;
+	padding:50px 60px;
+	margin-top:7%;
+	width:25%;
+	color:white;
+	-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+.register h5{padding-left: 42%; padding-top: 2%;}
+
+#time option{color:black;}
+
+#img-upload{
+    width: 100%;
+}
